@@ -4,7 +4,7 @@ rm /usr/local/bin/gost
 mkdir ./gost
 cd ./gost
 wget https://raw.githubusercontent.com/FrankLiangCN/GOST/main/gost.service
-mv ./gost.service /usr/local/bin/gost
+mv ./gost.service /etc/systemd/system
 cd ..
 rm -rf ./gost
 mkdir -p /opt/gost
