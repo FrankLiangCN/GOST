@@ -1,0 +1,21 @@
+services:
+  - name: service-0
+    addr: :port
+    handler:
+      type: tcp
+    listener:
+      type: tcp
+    forwarder:
+      nodes:
+        - name: target-0
+          addr: IP:port
+  - name: service-1
+    addr: :21022
+    handler:
+      type: udp
+    listener:
+      type: udp
+    forwarder:
+      nodes:
+        - name: target-0
+          addr: IP:port
