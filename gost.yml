@@ -10,7 +10,7 @@ services:
         - name: target-0
           addr: IP:port
   - name: service-1
-    addr: :21022
+    addr: :port
     handler:
       type: udp
     listener:
