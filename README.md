@@ -1,8 +1,12 @@
 # GOST
-GO Simple Tunnel
+## GO Simple Tunnel
 
 ### 一键脚本命令：
 
+```
+bash <(curl -Ls https://raw.githubusercontent.com/FrankLiangCN/GOST/main/gost.sh)
+```
+### 或者
 ```
 wget -qO- https://raw.githubusercontent.com/FrankLiangCN/GOST/main/gost.sh | bash
 ```
