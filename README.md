@@ -4,7 +4,7 @@
 ### 一键脚本命令：
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FrankLiangCN/GOST/main/gost.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/FrankLiangCN/GOST/main/gost.sh)
 ```
 ### 或者
 ```
